@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(187, 162, 101);
+}
+.dd{
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.app{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    justify-items: center;
+}

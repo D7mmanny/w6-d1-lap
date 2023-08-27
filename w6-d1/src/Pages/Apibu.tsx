@@ -19,8 +19,8 @@ const [asrc,setsrc] =useState<info[]>([])
      },[])
 
   return (
-    <div>
-        <div className='grid grid-cols-4'>
+    <div className='app'>
+        
       {asrc.map((item)=>{
         return(
             
@@ -34,7 +34,7 @@ const [asrc,setsrc] =useState<info[]>([])
 
 
       })}
-   </div>
+   
     </div>
   )
 }

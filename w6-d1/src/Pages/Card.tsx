@@ -24,10 +24,10 @@ React.useEffect(() =>{
 
 
   return (
-    <div className='flex justify-center'>
+    <div className='dd' >
           {char.map((item)=>{
         return(
-            <div key={item.id}>
+            <div  key={item.id}>
                 <img src={item.image} alt='Character' />
                 <p>{item.name}</p>
                 <p>{item.status}</p>
