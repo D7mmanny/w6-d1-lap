@@ -24,7 +24,7 @@ React.useEffect(() =>{
 
 
   return (
-    <div>
+    <div className='flex justify-center'>
           {char.map((item)=>{
         return(
             <div key={item.id}>

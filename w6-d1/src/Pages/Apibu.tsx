@@ -20,18 +20,21 @@ const [asrc,setsrc] =useState<info[]>([])
 
   return (
     <div>
+        <div className='grid grid-cols-4'>
       {asrc.map((item)=>{
         return(
-            <div key={item.id}>
+            
+            <div  key={item.id}>
                 <Link to={`/CharDetails/${item.id}`}>
                     <img src={item.image}  />
                 </Link>
             </div>
+            
         )
 
 
       })}
-   
+   </div>
     </div>
   )
 }
